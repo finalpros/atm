@@ -1,0 +1,2 @@
+- [ ] Entering ATM pin the console either should not be shown or should show * character - Issue #3 - Assignee
+- [ ] Validate ATM pin with 4 integer values[0-9] only - Issue #2 - Assignee
