@@ -18,3 +18,19 @@
    
 ## 5. Importing Git project into Eclipse
    * Click on "File" menu then go to "Import", select and expand "Git" and select "Projects from Git" and click on "Next" button, select "Clone URI" and click "Next" button, paste the URL https://github.com/finalpros/atm.git under "Location -> URI", click on "Next", "Next", "Next", "Next" and "Finish".
+   
+## 6. Run application
+   * Select project "atm" and Right click on project and click on "Build Project" which will build the "atm.exe" in "Debug" folder. Now open command prompt(Win + R -> cmd ) and change directory to source directory (we can get the source directory from Right click on project and select "Properties", in the left panel make sure "Resource" is selected, the value of "Location" in the right panel is nothing but the source directory path) and enter "Debug\atm.exe" and press Enter.
+
+Example:    
+C:\Users\Pradeep\git\atm>Debug\atm.exe
+
+Welcome to ATM Reference Implementation.
+
+Please enter the ATM card number: 4001 5643 7893 1235
+
+Entered ATM card number : 4001 5643 7893 1235
+
+Enter the ATM Pin: 3421
+
+Your account balance is : 5400
